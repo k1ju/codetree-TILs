@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
 
-    cout.fixed;
+    cout << fixed;
 
     double a;
     
     cin >> a;
-    cout.precision(4);
+    cout.precision(2);
     cout << a;
 
 
