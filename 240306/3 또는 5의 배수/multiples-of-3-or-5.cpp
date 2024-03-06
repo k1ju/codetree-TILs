@@ -6,19 +6,19 @@ int main() {
     int a;
     cin >> a;
 
-    if ((a%3) == 3){
+    if ((a%3) == 0){
+        cout << "YES";
+    } else {
+        cout << "NO";
+    }
+cout << endl;
+    if((a%5) == 0){
         cout << "YES";
     } else {
         cout << "NO";
     }
 
-    if((a%5) ==5){
-        cout << "YES";
-    } else {
-        cout << "NO";
-    }
 
-    
 
     // 여기에 코드를 작성해주세요.
     return 0;
