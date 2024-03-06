@@ -8,7 +8,7 @@ int main() {
 
     string c;
 
-    c = (a=100) ? "pass" : "failure";
+    c = (a==100) ? "pass" : "failure";
     cout << c;
 
     // 여기에 코드를 작성해주세요.
