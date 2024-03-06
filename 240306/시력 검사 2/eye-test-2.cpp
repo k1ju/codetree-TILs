@@ -9,9 +9,9 @@ int main() {
 
     string result;
 
-    if(n>1){
+    if(n>=1){
         result = "High";
-    } else if (n > 0.5){
+    } else if (n >= 0.5){
         result = "Middle";
     } else {
         result = "Low";
