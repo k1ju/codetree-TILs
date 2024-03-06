@@ -10,7 +10,7 @@ string c;
 
 if(n<0){
  c = "ice";
-} else if(n>100){
+} else if(n>=100){
     c = "vapor";
 } else {
     c = "water";
