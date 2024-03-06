@@ -16,9 +16,11 @@ int main() {
         result = "mask";
     } else if(money >= 500){
         result = "pen";
+    } else{
+        result = "no";
     }
     cout << result;
-    
+
     // 여기에 코드를 작성해주세요.
     return 0;
 }
