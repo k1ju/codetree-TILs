@@ -14,7 +14,7 @@ int main() {
         if (gender == 0){
             cout << "MAN";
         } else {
-            cout << "WONAM";
+            cout << "WOMAN";
         }
     };
     // 여기에 코드를 작성해주세요.
