@@ -4,10 +4,10 @@ int main() {
 
     int n;
     cin >> n;
-    int i=0;
-    while(i<n){
-        i+=3;
+    int i=3;
+    while(i<=n){
         cout << i << " ";
+        i+=3;
 
     }
     // 여기에 코드를 작성해주세요.
