@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int a,b;
     cin >> b >> a;
-    while(b>a){
+    while(b>=a){
         cout << b << " ";
         b--; 
     }
