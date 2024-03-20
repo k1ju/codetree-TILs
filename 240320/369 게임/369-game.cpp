@@ -10,7 +10,7 @@ int main() {
         } else if(i>=10){
             if(i/10 % 3 == 0){
                 cout << 0 << " ";
-            } else if ( i%10 %3 ==0){
+            } else if ( i%10 %3 ==0 && i != 0){
                 cout << 0 << " ";
             } else {
                 cout << i << " ";
