@@ -12,6 +12,8 @@ int main() {
                 cout << 0 << " ";
             } else if ( i%10 %3 ==0){
                 cout << 0 << " ";
+            } else {
+                cout << i << " ";
             }
         } else if(i<10) {
             if ( i%10 %3 ==0){
