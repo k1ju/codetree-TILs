@@ -17,7 +17,7 @@ int main() {
             grade = 'C';
         } else if(i>=60){
             grade = 'D';
-        } else (i>=50){
+        } else {
             grade = 'F';
         } 
         cout << grade << " ";
