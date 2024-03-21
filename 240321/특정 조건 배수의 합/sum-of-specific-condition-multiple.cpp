@@ -6,7 +6,7 @@ int main() {
 
     int sum=0;
 
-    for(a; a<b; a++){
+    for(a; a<=b; a++){
         if(a%5==0){
 
             sum += a;
