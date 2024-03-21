@@ -5,14 +5,24 @@ int main() {
     cin >> a >> b;
 
     int sum=0;
+    if(b>=a){
 
-    for(a; a<=b; a++){
-        if(a%5==0){
+        for(a; a<=b; a++){
+            if(a%5==0){
 
-            sum += a;
+                sum += a;
+            }
         }
-    }
-    cout << sum;
+    } else{
+        for(b; b<=a; b++){
+            if(b%5==0){
+
+                sum += b;
+            }
+        }
+    }    
+        cout << sum;
+        
     // 여기에 코드를 작성해주세요.
     return 0;
 }
