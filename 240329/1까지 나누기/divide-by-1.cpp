@@ -11,7 +11,7 @@ int main() {
         
         sum = sum / i;
         cnt ++;
-        if(sum < 1){
+        if(sum <= 1){
             break;
         }
     }
