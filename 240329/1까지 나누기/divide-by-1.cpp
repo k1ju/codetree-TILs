@@ -8,11 +8,12 @@ int main() {
     int cnt = 0;
 
     for(int i=1; i<=n; i++){
+        
+        sum = sum / i;
+        cnt ++;
         if(sum < 1){
             break;
         }
-        sum = sum / i;
-        cnt ++;
     }
     cout << cnt;
 
