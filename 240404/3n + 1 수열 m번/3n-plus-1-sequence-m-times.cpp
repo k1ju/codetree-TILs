@@ -22,6 +22,7 @@ int main() {
         }
 
         cout << cnt;
+        cout << endl;
         
     }
     
