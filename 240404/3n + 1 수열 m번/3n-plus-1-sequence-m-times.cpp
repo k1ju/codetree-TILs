@@ -5,11 +5,11 @@ int main() {
     int m;
     cin >> m;
 
-    int cnt = 0;
 
     for(int i=0; i<m; i++){
         int n;
         cin >> n;
+        int cnt = 0;
 
         while(n>1){
 
