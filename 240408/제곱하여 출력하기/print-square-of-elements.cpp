@@ -7,7 +7,7 @@ int main() {
     int n;
     cin >> n;
 
-int list[10];
+int list[5];
     for(int i=0; i< n; i++) {
         cin >> list[i];
     }
