@@ -5,7 +5,7 @@ int main() {
     int n;
     cin >> n;
     int num = 1;
-    int arr[5][5] = {};
+    int arr[10][10] = {};
 
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
