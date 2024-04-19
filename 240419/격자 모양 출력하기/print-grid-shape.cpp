@@ -4,8 +4,8 @@ int main() {
 
     int arr [10][10] = {};
 
-    int n;
-    cin >> n >> n;
+    int n,m;
+    cin >> n >> m;
 
 
     for(int i=0; i<n; i++){
@@ -16,7 +16,7 @@ int main() {
         }
     }
 
-    for(int i=1; i<=n; i++){
+    for(int i=1; i<=m; i++){
 
         int a,b;
         cin >> a >> b;
