@@ -13,9 +13,9 @@ int main() {
         list.push_back(str[i]);
     }
 
-    for(auto it = list.rbegin(); it!=list.rend(); ++it ){
+    for(auto i = list.rbegin(); i!=list.rend(); i++ ){
 
-        cout << *it;
+        cout << *i;
 
 
     }
