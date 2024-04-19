@@ -10,7 +10,7 @@ int main() {
     string totalString;
     totalString = a + b;
 
-    for(int i=0; i<=totalLength; i++){
+    for(int i=0; i<=totalLength-1; i++){
         if(totalString[i]== ' '){
             continue;
         }
