@@ -3,25 +3,19 @@
 using namespace std;
 int main() {
 
+   
     string str;
-    getline(cin, str);
+   getline(cin, str);
+    string abOk = "No", eeOk = "No";
 
-    string eeOk = "No", abOk = "No";
+   if(str.find("ab") != string::npos){
+    abOk = "Yes";
+   }
 
-    
-    for(int i=0; i<str.length()-1; i++){
-
-        if(str.substr(i, 2) == "ee"){
-            eeOk = "Yes";
-        }
-
-
-        if(str.substr(i, 2) == "ab"){
-            abOk = "Yes";
-        }
-    }
-
-    cout << eeOk << " " << abOk;
+   if(str.find("ee") != string::npos){
+    eeOk = "Yes";
+   }
+    cout << eeOk  << " " << abOk ;
 
     // 여기에 코드를 작성해주세요.
     return 0;
