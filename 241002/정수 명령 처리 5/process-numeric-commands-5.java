@@ -4,11 +4,11 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int num = Integer.parseInt(sc.next());
+        int num = Integer.parseInt(sc.nextLine());
 
         ArrayList<String> list = new ArrayList<>();
 
-        for(int i=0; i<= num; i++){
+        for(int i=0; i< num; i++){
             String[] str = sc.nextLine().split(" ");
 
             if( str[0].equals("push_back") ){
