@@ -32,7 +32,6 @@ public class Main {
             }
         }
 
-
         System.out.println(sb2.reverse().toString());
 
     }
