@@ -23,14 +23,17 @@ public class Main {
         
         StringBuilder sb2 = new StringBuilder();
 
-        while(sum>0){
-
-            sb2.append( sum % Integer.parseInt(str[1]) );
-            sum /= Integer.parseInt(str[1]);
-            
+        if(sum==0){
+            sb2.append(0);
+        } else{
+            while(sum>0){
+                sb2.append( sum % Integer.parseInt(str[1]) );
+                sum /= Integer.parseInt(str[1]);
+            }
         }
 
-        System.out.println(sb2.toString());
+
+        System.out.println(sb2.reverse().toString());
 
     }
 }
