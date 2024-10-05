@@ -15,8 +15,8 @@ public class Main {
         StringBuilder sb2 = new StringBuilder();
         sb2.append(c).reverse();
 
-        for(int i=0; i<c.length(); i++ ){
-            decimalValue += Integer.parseInt(String.valueOf(sb2.charAt(i))) * Math.pow(8,i);
+        for(int i=0; i<sb2.length(); i++ ){
+            decimalValue += Integer.parseInt(String.valueOf(sb2.charAt(i))) * Math.pow(a,i);
         }
 
         StringBuilder sb = new StringBuilder();
