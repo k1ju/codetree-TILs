@@ -26,17 +26,11 @@ public class Main {
         while(sum>0){
 
             sb2.append( sum % Integer.parseInt(str[1]) );
-
             sum /= Integer.parseInt(str[1]);
             
         }
 
-        System.out.println(sb2.reverse().toString());
-
-
-
-
-
+        System.out.println(sb2.toString());
 
     }
 }
