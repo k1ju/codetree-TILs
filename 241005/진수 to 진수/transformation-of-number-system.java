@@ -14,11 +14,8 @@ public class Main {
 
         sb.append(c).reverse();
 
-
         for(int i=0; i<sb.length(); i++ ){
-
             sum += Integer.parseInt(String.valueOf(sb.charAt(i))) * Math.pow(8,i);
-
         }
         
         StringBuilder sb2 = new StringBuilder();
