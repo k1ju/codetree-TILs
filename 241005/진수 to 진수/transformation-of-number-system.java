@@ -5,31 +5,32 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         String[] str = sc.nextLine().split(" "); 
+        int a = Integer.parseInt(str[0]);
+        int b = Integer.parseInt(str[1]);
 
-        int c = Integer.parseInt(sc.nextLine());
+        String c = sc.nextLine();
 
-        int sum = 0;
+        int decimalValue = 0;
+
+        StringBuilder sb2 = new StringBuilder();
+        sb2.append(c).reverse();
+
+        for(int i=0; i<c.length(); i++ ){
+            decimalValue += Integer.parseInt(String.valueOf(sb2.charAt(i))) * Math.pow(8,i);
+        }
 
         StringBuilder sb = new StringBuilder();
 
-        sb.append(c).reverse();
-
-        for(int i=0; i<sb.length(); i++ ){
-            sum += Integer.parseInt(String.valueOf(sb.charAt(i))) * Math.pow(8,i);
-        }
-        
-        StringBuilder sb2 = new StringBuilder();
-
-        if(sum==0){
-            sb2.append(0);
+        if(decimalValue==0){
+            sb.append(0);
         } else{
-            while(sum>0){
-                sb2.append( sum % Integer.parseInt(str[1]) );
-                sum /= Integer.parseInt(str[1]);
+            while(decimalValue>0){
+                sb.append( decimalValue % Integer.parseInt(str[1]) );
+                decimalValue /= Integer.parseInt(str[1]);
             }
         }
 
-        System.out.println(sb2.reverse().toString());
+        System.out.println(sb.reverse().toString());
 
     }
 }
